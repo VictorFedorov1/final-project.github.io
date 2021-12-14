@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Обо мне</title>
     <link rel="stylesheet" href="Style5.css">
+    <link rel="stylesheet" type="text/css" href="slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type=”text/javascript” src=”https://code.jquery.com/jquery-migrate-1.4.1.min.js”></script>
 </head>
 <body>
     <style>body {background: url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/7beacc8d2680df408a33b85e48d8d748/7e3c56f3-a807-46b1-96f6-73bc96ee5e7e_rw_1920.gif?h=c0893b83729867b436c611802fe7503b);}</style>
@@ -17,10 +23,34 @@
             <li><a href="post1.html"><i>Главный герой</i></a></li>
             <li><a href="post2.html"><i>Боссы игры</i></a></li>
             <li><a href="post3.html"><i>Питомцы</i></a></li>
-            <li><a href="post4.html"><i>Не смотреть</i></a></li>
+           
     </nav>
+    <div class="carousele">
+        <div>
+            <center><img src="https://i.ytimg.com/vi/d5fLyx9kdTI/maxresdefault.jpg"></center>
+        </div>
+        <div>
+            <center><img src="https://i.ytimg.com/vi/V6HNw5qRDew/maxresdefault.jpg"></center>
+        </div>
+        <div>
+            <center><img src="https://i.ytimg.com/vi/QRQx5vwPTSc/maxresdefault.jpg"></center>
+        </div>
+       </div>
+    
+       
+       
+    <script src="slick.min.js"></script>
+    
+    <script>
+        $('div').ready(function(){
+        $('.carousele').slick(
+        {
+            arrows: true,
+            autoplay: true,
+        });
+        });
+    </script>
     <main class="post">
-        <img height="250px" src="https://whatech.b-cdn.net/media/com_mtree/images/listings/o/30174.jpg" alt="I'm">
         <h3>Федоров Виктор Павлович <br> Приветствую всех кто зашёл сюда. Я федоров Виктор и я учусь в АКАЛЕМИИ ШАГ! Сдесь же я собственноручно написал это прекрасное оформление сайта. По моей фотографии (она находится слева) можно понять что я очень умный и занятой человек, но яочень добрый приветливый, поэтому со мной можно подружиться:)<br> <b>СПАСИБО ЗА ВНИМАНИЕ!</b>
         
     </main>
